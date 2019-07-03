@@ -1,68 +1,109 @@
-*{
-  padding: 0px;
-  margin: 0px;
+* {
+    padding: 0px;
+    margin: 0px;
 }
-html{
-  font-size:16px;
-  color: #333333;
-}
-a{
-  text-decoration: none;
 
+html {
+    font-size: 16px;
+    color: #333333;
 }
-#top{
-width: 100%;
-height: 80px;
-line-height: 80px;
-position: fixed;
-top:0px;
-z-index: 11;
-transition:0.4s all;
--webkit-transition: 0.4s all;
-background-color: #257dff;
+
+a {
+    text-decoration: none;
 }
-#log{
-  width: 33.3333%;
-  float: left;
+
+#top {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    background-color: #257dff;
 }
-.logo{
-  margin-left: 20px;
-} 
-.logo img{
-  vertical-align: middle;
+
+#log {
+    width: 33.3333%;
+    float: left;
 }
-#nav{
-  width: 66.6666%;
-  float: left;
+
+.logo {
+    margin-left: 20px;
 }
-#nav ul{
-  margin:0px auto;
+
+.logo img {
+    vertical-align: middle;
 }
-#nav a{
-  color: rgb(239 , 239, 239);
-  transition:all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
-  display: block;
-  width: 100px;
-  text-align:center;
+
+#nav {
+    width: 66.6666%;
+    float: left;
 }
-#nav a:hover{
-  color: white;
+
+#nav ul {
+    margin: 0px auto;
 }
-#nav ul li{
-  list-style: none;
-  float: left;
+
+#nav a {
+    color: rgb(239, 239, 239);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    display: block;
+    width: 100px;
+    text-align: center;
 }
-#r{
-  width: 33.3333%;
-  float: left;
+
+#nav a:hover {
+    color: white;
 }
-#rc{
-  width: 40px;
-  height:100%;
-  position: fixed;
-  right: 0px;
-  z-index: 18;
-  background: url(aside.jpg)  center top repeat;
-  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+
+#nav ul li {
+    list-style: none;
+    float: left;
+}
+
+#r {
+    width: 33.3333%;
+    float: left;
+}
+
+#rc {
+    width: 40px;
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    z-index: 18;
+    background: url(aside.jpg) center top repeat;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    right: 0px;
+}
+
+#rc a {
+    color: white;
+}
+
+#kf {
+    position: relative;
+    top: 100px;
+    width: 40px;
+    text-align: center;
+}
+
+#gb {
+    position: fixed;
+    bottom: 20px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+#gb button {
+    width: 40px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
