@@ -78,6 +78,8 @@ a {
     background: url(aside.jpg) center top repeat;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
     right: 0px;
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
 }
 
 #rc a {
@@ -106,4 +108,15 @@ a {
     border: none;
     color: white;
     cursor: pointer;
+}
+#dk{
+  width: 40px;
+  background: #257dff;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  right:-40px;
+  bottom: 40px;
+  transition: 0.4s all;
+    -webkit-transition: 0.4s all;
 }
